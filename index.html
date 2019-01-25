@@ -6,11 +6,16 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <script src="script.js"></script>
 </head>
 <body>
-<div id="title">ZOOOOOOOOOOOOO</div>
-<button onClick="addAnimal()">Run!</button>
+<div id="title">WELCOME TO THE ZOOOOOOOOOOOOO</div>
+<br>
+
+<div id="createTitle">Create Your Animal HERE</div>
+
 
 <select id="animalType">
     <option value=" ">Choose an animal! </option>
@@ -22,6 +27,12 @@
 </select>
 
 <input type="text" placeholder="Name your animal!" id="nameField">
+<br>
+<br>
+<button onClick="addAnimal()" id="create" class="w3-button w3-green">Create your animal!</button>
+<br>
+<br>
+<div id="feedTitle">Feed Your Animal HERE</div>
 
 <select id="food">
     <option value=" ">Choose food </option>
@@ -31,8 +42,26 @@
     <option value="marshmallows">Marshmallows</option>
     <option value="pollen">Pollen</option>
 </select>
+<br>
+<br>
+<button onClick="feedAnimal()" id="feed" class="w3-button w3-blue">Feed your animal!</button>
+<br>
+<br>
+<div id="banish">Click one to banish an animal from the zoo!</div>
+<br>
+<table align= center id="table">
+    <tr>
+        <td> NAME:     </td>
 
-<div id="animalList"></div>
+        <td> SPECIES : </td>
+    </tr>
+
+</table>
+<br>
+
+
+<div id="log">Log of Events:</div>
+<div id="actions"></div>
 
 </body>
 </html>

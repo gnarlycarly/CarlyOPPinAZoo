@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    font-family: Cambria;
+    font-size: x-large;
+    background: url("images/images.jpg")no-repeat fixed center;
+    background-size: cover;
+    color: white;
+}
+#title,#createTitle, #create,#log, #banish, #feedTitle{
+    font-family: Cambria;
+    font-size: x-large;
+    font-weight: 200;
+    color: white;
+}
+
+#actions{
+    font-family: Cambria;
+    font-size: x-large;
+    font-weight: 200;
+    color: red;
+}
+
+#nameFeild,#feed, #animalType{
+    font-family: Cambria;
+    font-size: x-large;
+    color: black;
+    font-weight: 200;
+}
+
+#table{
+    border: groove;
+    border: double;
+    color: white;
+
+}
